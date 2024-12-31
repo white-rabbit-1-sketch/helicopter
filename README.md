@@ -2,13 +2,14 @@
 
 ![Banner](readme/assets/img/banner.png)
 
-The player controls a helicopter. The goal is to score as many points as possible.
-
-Points are earned by extinguishing burning trees. Points are lost if the player fails to extinguish a tree before it burns.
-
-Points can be spent on healing the helicopter or upgrading its water capacity.
+A strategy-based game where the player controls a helicopter to extinguish burning trees and score points. The game features water collection, fire extinguishing, upgrades, and life management. The map is dynamically generated, with various terrains like grass, mountains, and water.
 
 ## Game Rules
+
+The player controls a helicopter. The goal is to score as many points as possible.
+Points are earned by extinguishing burning trees. Points are lost if the player fails to extinguish a tree before it burns.
+Points can be spent on healing the helicopter or upgrading its water capacity.
+
 
 - Extinguishing a tree earns 10 points.
 - A burned tree deducts 10 points.
