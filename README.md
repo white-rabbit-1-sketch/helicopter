@@ -1,4 +1,4 @@
-### Helicopter game
+## Helicopter game
 
 ![Banner](readme/assets/img/banner.png)
 
@@ -8,7 +8,7 @@ Points are earned by extinguishing burning trees. Points are lost if the player 
 
 Points can be spent on healing the helicopter or upgrading its water capacity.
 
-### Game Rules
+## Game Rules
 
 - Extinguishing a tree earns 10 points.
 - A burned tree deducts 10 points.
@@ -34,17 +34,17 @@ In the top-right corner of the screen:
 - Blue fire icon: number of extinguished trees
 - Trophy: score
 
-### Map Generator
+## Map Generator
 - Grass covers the entire map.
 - Earth fills random areas.
 - The hospital and shop always spawn next to each other and have a safe area around them.
 - Mountains form with mountain ranges and random cells.
 - Water forms as rivers and lakes.
 
-### Save & Load
+## Save & Load
 The game saves the state of all objects and their behaviors. For example, if a tree is about to catch fire in 1 second, it will remain the same after loading.
 
-### Graphics & Display
+## Graphics & Display
 
 The game supports:
 - Object animation (though content is limited, the engine supports it).
@@ -55,7 +55,7 @@ The game supports:
 - Object transparency.
 - Field size adjustments.
 
-### Technical Details
+## Technical Details
 The game includes scenes, the player, objects, and behaviors with minimal interdependence. The map supports layers with priorities, each containing cells with coordinates and objects.
 
 Rendering happens by layer priority with transparency.
@@ -64,10 +64,18 @@ Layers’ sizes are independent, allowing for smooth movement of clouds and the 
 
 Collisions are supported at the cell level.
 
-### Game Settings
+## Game Settings
 Game settings are stored in the `parameters.ini` file.
 
 ### Running the Game
 
 1. Install required packages by running `install.sh`.
 2. Start the game with `python main.py`.
+
+## Author and License
+
+**Author**: Mikhail Chuloshnikov
+
+**License**: MIT License
+
+This library is released under the MIT License. See the [LICENSE](LICENSE) file for more details.
